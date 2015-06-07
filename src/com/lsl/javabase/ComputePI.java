@@ -3,7 +3,7 @@ package com.lsl.javabase;
  * 
  * PI=4*(1-1/3+1/5-1/7+1/9-1/11+1/13-1/15+....);
  */
-public class CoputePI {
+public class ComputePI {
 	public static void main(String[] args) {
 		double sum = 0;
 		int maxDenom = 10000000;
