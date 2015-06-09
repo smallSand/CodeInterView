@@ -21,13 +21,10 @@ public class TimeTable {
 	public static void main(String[] args){
 		int size=10;
 		for(int row=1;row<size;row++){
-			System.out.print(row+"  ");
+			
 			for(int col=1;col<size;col++){
-				if(row==1){
 
-					System.out.print(col+"  ");
-				}
-				else if(col*row<10){
+				if(col*row<10){
 					System.out.print(col*row+"  ");
 				}
 				else {
